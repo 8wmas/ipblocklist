@@ -1,20 +1,20 @@
 # IP Blocklist
 
-![GitHub Repo stars](https://img.shields.io/github/stars/bitwire-it/ipblocklist)
-
-<a href="https://www.buymeacoffee.com/Matis7" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
 This project provides aggregated IP blocklists for inbound and outbound traffic, updated every 2 hours. It includes exclusions for major public DNS resolvers to prevent legitimate services from being blocked.
 
 ---
 
 ## Live Statistics
 
-![Inbound IPs](https://img.shields.io/badge/Inbound_IPs-15869848495964014592.0T-red?style=flat-square) ![Outbound IPs](https://img.shields.io/badge/Outbound_IPs-148.6K-orange?style=flat-square) ![Total IPs](https://img.shields.io/badge/Total_IPs-15869848495964014592.0T-blue?style=flat-square) ![Last Updated](https://img.shields.io/badge/Last_Updated-2025--11--28-green?style=flat-square)
+- Inbound IPs=15869848495964014592.0T
+- Outbound IPs=148.7K
+- Total IPs=15869848495964014592.0T
 
-- **Inbound Blocklist**: 1,466,241 networks/IPs covering 15,869,848,495,964,014,899,781,059,664,641 individual IP addresses
-- **Outbound Blocklist**: 148,601 networks/IPs covering 148,601 individual IP addresses
-- **Total Coverage**: 15,869,848,495,964,014,899,781,059,813,242 individual IP addresses
+Last Updated=2025--11--28
+
+- **Inbound Blocklist**: 1,464,998 networks/IPs covering 15,869,848,495,964,014,899,781,059,663,398 individual IP addresses
+- **Outbound Blocklist**: 148,651 networks/IPs covering 148,651 individual IP addresses
+- **Total Coverage**: 15,869,848,495,964,014,899,781,059,812,049 individual IP addresses
 
 ## Files
 
@@ -55,4 +55,4 @@ This blocklist is aggregated from the following reputable sources:
 
 ---
 
-*This README is automatically updated by the update script on 2025-11-28 22:25:02 UTC.*
+*This README is automatically updated by the update script on 2025-11-28 23:25:09 UTC.*
