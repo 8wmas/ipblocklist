@@ -1,13 +1,5 @@
 # IP Blocklist
 
-![GitHub Repo stars](https://img.shields.io/github/stars/bitwire-it/ipblocklist)
-
-<a href="https://www.buymeacoffee.com/Matis7" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
-This project provides aggregated IP blocklists for inbound and outbound traffic, updated every 2 hours. It includes exclusions for major public DNS resolvers to prevent legitimate services from being blocked.
-
----
-
 ## Live Statistics
 
 ![Inbound IPs](https://img.shields.io/badge/Inbound_IPs-15869848495964014592.0T-red?style=flat-square) ![Outbound IPs](https://img.shields.io/badge/Outbound_IPs-148.6K-orange?style=flat-square) ![Total IPs](https://img.shields.io/badge/Total_IPs-15869848495964014592.0T-blue?style=flat-square) ![Last Updated](https://img.shields.io/badge/Last_Updated-2025--11--28-green?style=flat-square)
