@@ -247,20 +247,17 @@ def update_readme(inbound_count: int, outbound_count: int, inbound_total_ips: in
     # The entire README content is structured here
     readme_content = f"""# IP Blocklist
 
-![GitHub Repo stars](https://img.shields.io/github/stars/bitwire-it/ipblocklist)
-
-<a href="https://www.buymeacoffee.com/Matis7" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
-
 This project provides aggregated IP blocklists for inbound and outbound traffic, updated every 2 hours. It includes exclusions for major public DNS resolvers to prevent legitimate services from being blocked.
 
 ---
 
 ## Live Statistics
 
-![Inbound IPs](https://img.shields.io/badge/Inbound_IPs-{inbound_fmt}-red?style=flat-square) \
-![Outbound IPs](https://img.shields.io/badge/Outbound_IPs-{outbound_fmt}-orange?style=flat-square) \
-![Total IPs](https://img.shields.io/badge/Total_IPs-{total_fmt}-blue?style=flat-square) \
-![Last Updated](https://img.shields.io/badge/Last_Updated-{now_utc.strftime('%Y--%m--%d')}-green?style=flat-square)
+- Inbound IPs={inbound_fmt}
+- Outbound IPs={outbound_fmt}
+- Total IPs={total_fmt}
+
+Last Updated={now_utc.strftime('%Y--%m--%d')}
 
 - **Inbound Blocklist**: {inbound_count:,} networks/IPs covering {inbound_total_ips:,} individual IP addresses
 - **Outbound Blocklist**: {outbound_count:,} networks/IPs covering {outbound_total_ips:,} individual IP addresses
