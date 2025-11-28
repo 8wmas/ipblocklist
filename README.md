@@ -1,8 +1,5 @@
 # IP Blocklist
 
-![GitHub Repo stars](https://img.shields.io/github/stars/bitwire-it/ipblocklist)
-
-
 This project provides aggregated IP blocklists for inbound and outbound traffic, updated every 2 hours. It includes exclusions for major public DNS resolvers to prevent legitimate services from being blocked.
 
 ---
