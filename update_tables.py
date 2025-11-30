@@ -208,7 +208,8 @@ def consolidate_networks_radix(ip_set: set[str]) -> list[str]:
             
     ipv4_list.sort()
     ipv6_list.sort()
-    return [str(ip) for ip in ipv4_list] + [str(ip) for ip in ipv6_list]
+    #return [str(ip) for ip in ipv4_list] + [str(ip) for ip in ipv6_list]
+    return [str(ip) for ip in ipv4_list]
 
 def calculate_total_ips(ip_list: list[str]) -> int:
     """Calculates the total number of individual IP addresses covered by the list."""
