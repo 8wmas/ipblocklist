@@ -7,14 +7,14 @@ This project provides aggregated IP blocklists for inbound and outbound traffic,
 ## Live Statistics
 
 - Inbound IPs=20.6M
-- Outbound IPs=169.6K
+- Outbound IPs=167.7K
 - Total IPs=20.8M
 
 Last Updated=2026--01--17
 
-- **Inbound Blocklist**: 1,573,767 networks/IPs covering 20,597,363 individual IP addresses
-- **Outbound Blocklist**: 169,643 networks/IPs covering 169,643 individual IP addresses
-- **Total Coverage**: 20,767,006 individual IP addresses
+- **Inbound Blocklist**: 1,572,682 networks/IPs covering 20,597,043 individual IP addresses
+- **Outbound Blocklist**: 167,733 networks/IPs covering 167,733 individual IP addresses
+- **Total Coverage**: 20,764,776 individual IP addresses
 
 ## Files
 
@@ -55,4 +55,4 @@ This blocklist is aggregated from the following reputable sources:
 
 ---
 
-*This README is automatically updated by the update script on 2026-01-17 00:49:53 UTC.*
+*This README is automatically updated by the update script on 2026-01-17 03:15:36 UTC.*
